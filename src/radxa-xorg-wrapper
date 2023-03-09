@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Filter the argument list
+
+ARGV=()
+
+while (( $# > 0 ))
+do
+    if [[ "$1" == "-background" ]]
+    then
+        if [[ "$2" == "none" ]]
+        then
+            shift
+        fi
+    else
+        ARGV+=("$1")
+    fi
+    shift
+done
+
+# Execute Xorg.wrap if it exists.
+# Otherwise execute Xorg directly.
+# This allows distros to put the suid wrapper in a separate package.
+
+basedir="/usr/lib/xorg"
+if [ -x "$basedir/Xorg.wrap" ]
+then
+    exec "$basedir/Xorg.wrap" "${ARGV[@]}"
+else
+    exec "$basedir/Xorg" "${ARGV[@]}"
+fi

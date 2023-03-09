@@ -1,0 +1,18 @@
+Source: radxa-xorg-wrapper
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: misc
+Priority: optional
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               pandoc,
+
+Package: radxa-xorg-wrapper
+Architecture: all
+Section: misc
+Priority: optional
+Depends: ${misc:Depends},
+Description: Radxa X.Org Wrapper
+ This package provides X.Org wrapper to workaround some
+ display issues on Rockchip platform.
