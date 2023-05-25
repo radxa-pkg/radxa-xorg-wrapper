@@ -1,3 +1,11 @@
+radxa-xorg-wrapper (0.1.1) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add files via upload
+  * Add -novtswitch
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 25 May 2023 19:36:53 +0800
+
 radxa-xorg-wrapper (0.1) stable; urgency=medium
 
   * Initial release
