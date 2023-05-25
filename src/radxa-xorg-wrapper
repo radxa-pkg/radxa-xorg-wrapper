@@ -18,6 +18,8 @@ do
     shift
 done
 
+ARGV+=("-novtswitch")
+
 # Execute Xorg.wrap if it exists.
 # Otherwise execute Xorg directly.
 # This allows distros to put the suid wrapper in a separate package.
