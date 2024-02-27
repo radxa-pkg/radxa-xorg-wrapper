@@ -1,3 +1,15 @@
+radxa-xorg-wrapper (0.2.0) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Remove distribution restriction
+  * Add CI for automatic release
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+  * Disable unused VT arguments
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 27 Feb 2024 15:21:08 +0800
+
 radxa-xorg-wrapper (0.1.2) stable; urgency=medium
 
   [ ZHANG Yuntian ]
