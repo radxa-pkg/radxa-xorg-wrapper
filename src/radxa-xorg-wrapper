@@ -18,7 +18,9 @@ do
     shift
 done
 
-ARGV+=("-sharevts")
+# Some debug options that could be used to fix some issues
+# ARGV+=("-sharevts")
+# ARGV+=("-novtswitch")
 
 # Execute Xorg.wrap if it exists.
 # Otherwise execute Xorg directly.
