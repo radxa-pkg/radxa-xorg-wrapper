@@ -1,5 +1,10 @@
 # radxa-xorg-wrapper
 
-[![Release](https://github.com/radxa-pkg/radxa-xorg-wrapper/actions/workflows/release.yml/badge.svg)](https://github.com/radxa-pkg/radxa-xorg-wrapper/actions/workflows/release.yml)
+[![Release](https://github.com/radxa-pkg/radxa-xorg-wrapper/actions/workflows/release.yaml/badge.svg)](https://github.com/radxa-pkg/radxa-xorg-wrapper/actions/workflows/release.yaml)
 
-This package provides X.Org wrapper to workaround some display issues on Rockchip platform.
+## Build
+
+1. `git clone --recurse-submodules https://github.com/radxa-pkg/radxa-xorg-wrapper.git`
+2. Open in [`devcontainer`](https://code.visualstudio.com/docs/devcontainers/containers)
+3. `make deb`
+
